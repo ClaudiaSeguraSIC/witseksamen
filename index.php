@@ -36,11 +36,13 @@
 		<img src='blackhole.gif'width='100%' height='400px'alt='Blackholeswirling'/>
 
 	<div class="content">
-  <!-- Page content -->
+
+
+<!-- Page content -->
 
 
 	<h1> BLACKHOLERECORDSco </h1>
-<h2> <em>still just floating in space</em> </h2>
+<h2> <em>still just floating in space...?</em> </h2>
 
 <img src='bhrc.jpg'width='600' height='500'alt='Blackholerecordsco. logo. Astronaut listning to blackhole records.'/>
 

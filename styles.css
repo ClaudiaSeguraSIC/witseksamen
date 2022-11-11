@@ -35,7 +35,7 @@ z-index: 1000;
 .move-me{
 width: 100px;
 height: 100px;
-background-color: #9900cc;
+background-color: transparent;
 position: sticky;
 top: 0px;
 right: 0px;
