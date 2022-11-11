@@ -21,15 +21,15 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 	height: 400px;
 	background-color: #9900cc;
-	z-index: 600;
+	z-index: 1000;
 
 }
 
 .section-2 {
 width: 100%;
-height: 400px;
-background-color: #000;
-z-index: 1000;
+height: 750px;
+background-color: #9948F3;
+z-index: 1500;
 }
 
 .move-me{
@@ -41,13 +41,72 @@ top: 0px;
 right: 0px;
 }
 
+/*The void floting button - der skal køre i cirkler mod midten gif af sorthul*/
+
+.floatingbutton {
+	width: 80px;
+	height: 60px;
+	background-color:	<img src='bhrc.jpg;/>;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	border-radius: 50%;
+	color: #ffffffff;
+	font-size: 15px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 5);
+	position: fixed;
+	transition: background hoover;
+	animation: myanim-box 5s ease-in-out alternate infinite;
+}
+
+.floatingbutton:hover{
+	background: #9948F3;
+	cursor: pointer;
+}
+
+@keyframes myanim-box{
+	0% {
+	transform: rotate(90deg);
+	top: 0;
+	left:0;
+	}
+	20% {
+	transform: rotate(180deg);
+	top: 300px;
+	left: 400px;
+	}
+	40%{
+	transform: rotate(360deg);
+	top: 200px;
+	left:1200px;
+	}
+	60%{
+	transform: rotate(180deg);
+	top: 100px;
+	left:1000px;
+	}
+	80%{
+	transform: rotate(90deg);
+	top: 50px;
+	left:800px;
+	}
+	100%{
+	transform: rotate(360deg);
+	top: 200px;
+	left:600px;
+	}
+}
+
+
+/*Instagram icon i bunden af siden*/
 
 .gg-instagram {
 box-sizing: border-box;
 position: relative;
 display: block;
 transform: scale(var(--ggs,1));
-border: 2px solid transparent;
+border: 2px transparent;
 box-shadow: 0 0 0 2px;
 border-radius: 4px;
 width: 20px;
