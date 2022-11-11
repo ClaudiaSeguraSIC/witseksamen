@@ -128,7 +128,8 @@ echo '<a href="https://wits.ruc.dk/~segura/test/brugere.php">Brugere</a>';
 
 <section class="section-2">
 
-		<div class="move-me"><button type="button" name="down_the_rabbithole" onclick="window.location.href='https://wits.ruc.dk/~segura/test';">theRecords</button></div>
+	<div class="move-me"><button type="button" name="down_the_rabbithole" onclick="window.location.href='https://wits.ruc.dk/~segura/test';">theRecords</button></div>
+
 
 </section>
 
