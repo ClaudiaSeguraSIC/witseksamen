@@ -8,9 +8,10 @@
 <meta charset='UTF-8'/>
   <link rel='stylesheet' href='styles.css'/>
 			  <title>blackholerecordsco.</title>
+
 				<style>
 					button {
-						color: #613583;
+						color: #613;
 						background-color: #c061cb;
 						font-size: 19px;
 						border: 5px solid #613583;
@@ -36,15 +37,11 @@
 		<img src='blackhole.gif'width='100%' height='400px'alt='Blackholeswirling'/>
 
 	<div class="content">
-
-
-<!-- Page content -->
+  <!-- Page content -->
 
 
 	<h1> BLACKHOLERECORDSco </h1>
-<h2> <em>still just floating in space...? testing 1..  changes2 </em> </h2>
-
-<p>please virk test</p>
+<h2> <em>still just floating in space...</em> </h2>
 
 <img src='bhrc.jpg'width='600' height='500'alt='Blackholerecordsco. logo. Astronaut listning to blackhole records.'/>
 
@@ -55,13 +52,15 @@
 
 
 
-	<p> Miniprojekt og for pladeselskabet Blackholerecordsco.</p>
+	<p> Miniprojekt // for pladeselskabet Blackholerecordsco.</p>
 
 		<!-- Brugere skal kunne oprette 'blogindlæg' disse vil jeg lade bestå af
 		img / billeder / lydklip / tekst. -->
 
 <br>
 <a href="https://wits.ruc.dk/~segura/test/login.php">LOGIN</a>
+
+<br>
 
 <form action="vis_bruger.php" method="get">
 	<input type="text" name="uid" placeholder="Søg efter bruger: ">
@@ -132,8 +131,7 @@ echo '<a href="https://wits.ruc.dk/~segura/test/brugere.php">Brugere</a>';
 
 <section class="section-1">
 
-	<div class="move-me"><button type="button" name="down_the_rabbithole" onclick="window.location.href='https://wits.ruc.dk/~segura/test/void.php';">theRecords</button></div>
-
+		<div class="move-me"><button type="button" name="down_the_rabbithole" onclick="window.location.href='https://wits.ruc.dk/~segura/test/void.php';">theRecords</button></div>
 
 </section>
 
