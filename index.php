@@ -121,7 +121,7 @@ echo '<a href="https://wits.ruc.dk/~segura/test/brugere.php">Brugere</a>';
 			<a href="https://www.facebook.com/claudia.vesterager" class="fa fa-facebook"></a>
 
 <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
- 				<p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+ 				<p class="w3-medium">Powered by <a href="https://wits.ruc.dk/~segura/test/" target="_blank" class="w3-hover-text-green">Claudia Segura & Nicolai Aphichat</a></p>
 		<!-- End footer -->
 </footer>
 
