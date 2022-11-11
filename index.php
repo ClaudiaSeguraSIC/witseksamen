@@ -42,7 +42,7 @@
 
 
 	<h1> BLACKHOLERECORDSco </h1>
-<h2> <em>still just floating in space...? testing 1..2 </em> </h2>
+<h2> <em>still just floating in space...? testing 1..  changes2 </em> </h2>
 
 <p>please virk test</p>
 
@@ -64,12 +64,12 @@
 <a href="https://wits.ruc.dk/~segura/test/login.php">LOGIN</a>
 
 <form action="vis_bruger.php" method="get">
-	Søg efter bruger: <input type="text" name="uid">
+	<input type="text" name="uid" placeholder="Søg efter bruger: ">
 	<input type="submit">
 </form>
 
 <form action="blogpost.php" method="get">
-	søg efter blogpost pr. pid: <input type="text" name="pid">
+ <input type="text" name="pid" placeholder= "søg efter blogpost pr. pid:">
 	<input type="submit">
 </form>
 
