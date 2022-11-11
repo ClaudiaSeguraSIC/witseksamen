@@ -51,7 +51,7 @@
 
 
 
-	<p> Miniprojekt og arbejde med at lege med at lave en hjemmeside</p>
+	<p> Miniprojekt og for pladeselskabet Blackholerecordsco.</p>
 
 		<!-- Brugere skal kunne oprette 'blogindlæg' disse vil jeg lade bestå af
 		img / billeder / lydklip / tekst. -->
@@ -126,7 +126,7 @@ echo '<a href="https://wits.ruc.dk/~segura/test/brugere.php">Brugere</a>';
 
 <!-- Herinde vil vi have en knap, der flyttes rundt - via 'position' -->
 
-<section class="section-2">
+<section class="section-1">
 
 	<div class="move-me"><button type="button" name="down_the_rabbithole" onclick="window.location.href='https://wits.ruc.dk/~segura/test';">theRecords</button></div>
 
