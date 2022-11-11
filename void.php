@@ -29,9 +29,9 @@
 				<body>
 					<script>
 
-					let fornavn; = "Claudia";
+					let enteringTheVoid; = "theVoid";
 
-					alert("Hej "+fornavn);
+					alert("Hej "+enteringTheVoid);
 
 					alert("hvad som helst");
 
