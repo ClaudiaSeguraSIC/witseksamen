@@ -32,6 +32,7 @@ foreach($latestpostslatest as $value) {
 }
 
 function login() {
+    echo "check if running";
     if (isset($_POST['submit'])) {
         $username = $_POST['username'];
         $pw = $_POST['pw'];

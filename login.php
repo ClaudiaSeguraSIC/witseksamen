@@ -46,7 +46,7 @@
       <h2>Har du ikke en konto? <a href="createuser.php">Tilmeld dig</a></h2>
     </div>
   </div>
-
+		</body>
 
 <button type="button" name="up_the_rabbithole" onclick="window.location.href='https://wits.ruc.dk/~segura/test';">Blackholerecordsco.</button>
 
@@ -73,7 +73,4 @@ if($_GET['logonfailed']){
 
 ?>
 
-
-
-</body>
 </html>
