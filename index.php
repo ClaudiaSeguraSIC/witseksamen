@@ -1,6 +1,5 @@
 <?php
 	session_start();
-
 	?>
 <!DOCTYPE html>
 <html lang='en'>
@@ -40,19 +39,14 @@
 
 				<img src='blackhole.gif' width='1500px' height='400px' alt='Blackholeswirling'/>
 
-
-
-
-
-			<div class="content">
   <!-- Page content -->
+			<div class="content">
 
 
 				<h1> BLACKHOLERECORDSco </h1>
 				<h2> <em>still just floating in space...</em> </h2>
 
 				<img src='bhrc.jpg'width='600' height='500'alt='Blackholerecordsco. logo. Astronaut listning to blackhole records.'/>
-
 
 				<br>
 
@@ -93,10 +87,10 @@ Use Pid + uid to edit post <br>
 
 <br>
 
-<button type="button" name="loginButton" onclick="window.location.href='https://wits.ruc.dk/~segura/test/opretpost.php';">Opret Post</button>
+<button type="button" name="Opretpost" onclick="window.location.href='https://wits.ruc.dk/~segura/test/opretpost.php';">Opret Post</button>
 <br>
 
-<button type="button" name="loginButton" onclick="window.location.href='https://wits.ruc.dk/~segura/test/opretbruger.php';">Opret bruger</button>
+<button type="button" name="opretbruger" onclick="window.location.href='https://wits.ruc.dk/~segura/test/opretbruger.php';">Opret bruger</button>
 <p> Brugere </p>
 		<?php
 
@@ -111,11 +105,9 @@ Use Pid + uid to edit post <br>
 
 		    }
 
-<button type="button" name="hjem" onclick="window.location.href='https://wits.ruc.dk/~segura/test/brugere.php';">Brugere</button>
-
 			?>
 
-
+<button type="button" name="hjem" onclick="window.location.href='https://wits.ruc.dk/~segura/test/brugere.php';">Brugere</button>
 			</div>
 
 			<!-- Footer with instagram og facebook link -->
