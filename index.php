@@ -112,7 +112,6 @@ Use Pid + uid to edit post <br>
 		    }
 
 <button type="button" name="hjem" onclick="window.location.href='https://wits.ruc.dk/~segura/test/brugere.php';">Brugere</button>
-echo '<a href="https://wits.ruc.dk/~segura/test/brugere.php">Brugere</a>';
 
 			?>
 
