@@ -1,9 +1,9 @@
 <?php
 
-require_once "/home/mir/lib/db.php";
+require_once "/home/mir/lib/db.php";    
 
 // function der laver blogfeed
-function createblogfeed {
+function createblogfeed() { 
 
 $blogposts = get_pids();
 // print_r(array_slice($blogposts,-5));
@@ -30,5 +30,30 @@ foreach($latestpostslatest as $value) {
   </div>";
 }
 }
+
+function login() {
+    if (isset($_POST['submit'])) {
+        $username = $_POST['username'];
+        $pw = $_POST['pw'];
+          if (login($username, $pw)) {
+            //hvis true, så starter vi en session og gemmer username og pw som session variabler
+            //session variabler kan kun være "fulde" hvis login er korrekt
+            //derfor kan vi så vores main.page checke om de tomme eller fyldte
+            // og herefter enten vise hemmelig info eller returnere brugeren tilbage til login siden
+            session_start();
+            $_SESSION['suser'] = $username;
+            $_SESSION['spw'] = $pw;
+            echo "true redirect til secret page";
+            header('Location:index.php');
+            exit;
+            
+          } else if (!login($username, $pw)) {
+            echo "<div class='errorMsg'>
+                    <h1>WRONG LOGIN FOOL - be kind and try again</h1>
+                  </div>";
+        }
+      }
+}
+
 
 ?>
