@@ -9,19 +9,6 @@
 			  <title>blackholerecordsco.</title>
 
 				<style>
-					button {
-						color: #613;
-						background-color: #c061cb;
-						font-size: 19px;
-						border: 5px solid #613583;
-						padding: 10px 65px;
-						letter-spacing: 15px;
-						cursor: pointer
-					}
-					button:hover {
-						color: #c061cb;
-						background-color: #613583;
-					}
 
 					.content {
 			  max-width: 500px;
@@ -50,7 +37,7 @@
 
 				<br>
 
-	<button type="button" name="up_the_rabbithole" onclick="window.location.href='https://wits.ruc.dk/~segura/test';">Blackholerecordsco.</button>
+	<button type="button" name="up_the_rabbithole" onclick="window.location.href='https://wits.ruc.dk/~segura/test';"class="overAllButton">Blackholerecordsco.</button>
 
 
 	<p> Miniprojekt // for pladeselskabet Blackholerecordsco.</p>
@@ -62,7 +49,7 @@
 
 		<!--Login knap - der virker via en login side -->
 
-<button type="button" name="loginButton" onclick="window.location.href='login.php';">LOGIN</button>
+<button type="button" name="loginButton" onclick="window.location.href='login.php';"class="overAllButton">LOGIN</button>
 
 				<br>
 
@@ -87,10 +74,10 @@ Use Pid + uid to edit post <br>
 
 <br>
 
-<button type="button" name="Opretpost" onclick="window.location.href='https://wits.ruc.dk/~segura/test/opretpost.php';">Opret Post</button>
+<button type="button" name="Opretpost" onclick="window.location.href='https://wits.ruc.dk/~segura/test/opretpost.php';"class="overAllButton">Opret Post</button>
 <br>
 
-<button type="button" name="opretbruger" onclick="window.location.href='https://wits.ruc.dk/~segura/test/opretbruger.php';">Opret bruger</button>
+<button type="button" name="opretbruger" onclick="window.location.href='https://wits.ruc.dk/~segura/test/opretbruger.php';"class="overAllButton">Opret bruger</button>
 <p> Brugere </p>
 		<?php
 
@@ -107,7 +94,7 @@ Use Pid + uid to edit post <br>
 
 			?>
 
-<button type="button" name="hjem" onclick="window.location.href='https://wits.ruc.dk/~segura/test/brugere.php';">Brugere</button>
+<button type="button" name="hjem" onclick="window.location.href='https://wits.ruc.dk/~segura/test/brugere.php';"class="overallbutton">Brugere</button>
 			</div>
 
 			<!-- Footer with instagram og facebook link -->

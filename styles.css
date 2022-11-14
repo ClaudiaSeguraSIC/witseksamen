@@ -139,7 +139,7 @@ right: 1px;
 top: 1px
 }
 
-button {
+.overAllButton {
 	color: #613;
 	background-color: #c061cb;
 	font-size: 19px;
@@ -148,7 +148,7 @@ button {
 	letter-spacing: 15px;
 	cursor: pointer
 }
-button:hover {
+.overAllButton:hover {
 	color: #c061cb;
 	background-color: #613583;
 }
