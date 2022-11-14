@@ -83,7 +83,6 @@
 </form>
 
 <br>
-<!--her skal man kunne oprette brugere-->
 
 <form action="blogpost.php" method="get">
 Use Pid + uid to edit post <br>
@@ -93,10 +92,11 @@ Use Pid + uid to edit post <br>
 </form>
 
 <br>
-<a href="https://wits.ruc.dk/~segura/test/opretpost.php">Opret Post</a>
-<br>
-<a href="https://wits.ruc.dk/~segura/test/opretbruger.php">Opret UID/BRUGER</a>
 
+<button type="button" name="loginButton" onclick="window.location.href='https://wits.ruc.dk/~segura/test/opretpost.php';">Opret Post</button>
+<br>
+
+<button type="button" name="loginButton" onclick="window.location.href='https://wits.ruc.dk/~segura/test/opretbruger.php';">Opret bruger</button>
 <p> Brugere </p>
 		<?php
 
@@ -111,7 +111,7 @@ Use Pid + uid to edit post <br>
 
 		    }
 
-echo '<a href="https://wits.ruc.dk/~segura/test/brugere.php">Brugere</a>';
+<button type="button" name="hjem" onclick="window.location.href='https://wits.ruc.dk/~segura/test/brugere.php';">Brugere</button>
 
 			?>
 
