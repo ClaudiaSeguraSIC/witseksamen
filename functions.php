@@ -1,9 +1,9 @@
 <?php
 
-require_once "/home/mir/lib/db.php";
+require_once "/home/mir/lib/db.php";    
 
 // function der laver blogfeed
-function createblogfeed {
+function createblogfeed() { 
 
 $blogposts = get_pids();
 // print_r(array_slice($blogposts,-5));
