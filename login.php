@@ -1,35 +1,24 @@
 <?php
-	session_start();
-
-	?>
+	require_once "/home/mir/lib/db.php"; 
+?>
 
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>login side</title>
-		<style>
-			button {
-				color: #613583;
-				background-color: #c061cb;
-				font-size: 19px;
-				border: 5px solid #613583;
-				padding: 15px 50px;
-				letter-spacing: 15px;
-				cursor: pointer
-			}
-			button:hover {
-				color: #c061cb;
-				background-color: #613583;
-			}
-		</style>
-	</head>
-	<body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href='styles.css'/>
+	<title>Login</title>
+</head>
+<body>
+<div>
+<button type="button" name="up_the_rabbithole" onclick="window.location.href='https://wits.ruc.dk/~segura/test';">Blackholerecordsco.</button>
+</div>
 
-	<div class="blogbox">
     <!-- Login form using post -->
   <form action="login.php" method="post" class="login-form" >
     <div class='login-row'> 
-      <h1>Log på WITS</h1>
     <!-- username -->
       <label for="username"></label>
       <input placeholder="Indtast brugernavn" type="text" name="username" required>
@@ -42,35 +31,32 @@
       </div>
     </div>
   </form>
-    <div class="registerText">
-      <h2>Har du ikke en konto? <a href="createuser.php">Tilmeld dig</a></h2>
-    </div>
-  </div>
-		</body>
-
-<button type="button" name="up_the_rabbithole" onclick="window.location.href='https://wits.ruc.dk/~segura/test';">Blackholerecordsco.</button>
+  <div>
+</body>
+</html>
 
 <?php
 
-login();
-//Denne side skal bruges til login. Vi ønsker at brugeren kan skrive sit
-//uid og sit password. og vi skal have en submit-knap, så det er muligt at
-//klikke videre. Brug evt. den form sætning, du brugte på den anden side.
 
-			require_once "/home/mir/lib/db.php";
-			require_once('functions.php');
-
-echo	'<form action="theloginverifier.php" method="get">
-	 <input placeholder="uid" type="text" name="uid" style="width:400px;"><br>
-		<br> <input placeholder="Password" type="password" name="password" style="width:400px;"><br>
-			<input type="submit">
-		</form>';
-
-
-if($_GET['logonfailed']){
-	echo "Access Denied - Password incorrect";
+if (isset($_POST['submit'])) {
+    $username = $_POST['username'];
+    $pw = $_POST['pw'];
+      if (login($username, $pw)) {
+        //hvis true, så starter vi en session og gemmer username og pw som session variabler
+        //session variabler kan kun være "fulde" hvis login er korrekt
+        //derfor kan vi så vores main.page checke om de tomme eller fyldte
+        // og herefter enten vise hemmelig info eller returnere brugeren tilbage til login siden
+        session_start();
+        $_SESSION['suser'] = $username;
+        $_SESSION['spw'] = $pw;
+        echo "true redirect til secret page";
+        header('Location:index.php');
+        exit;
+        
+      } else if (!login($username, $pw)) {
+        echo "<div class='errorMsg'>
+                <h1>WRONG LOGIN FOOL - be kind and try again</h1>
+              </div>";
+    }
 }
-
 ?>
-
-</html>

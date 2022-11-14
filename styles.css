@@ -138,3 +138,22 @@ background: currentColor;
 right: 1px;
 top: 1px
 }
+
+button {
+	color: #613;
+	background-color: #c061cb;
+	font-size: 19px;
+	border: 5px solid #613583;
+	padding: 10px 65px;
+	letter-spacing: 15px;
+	cursor: pointer
+}
+button:hover {
+	color: #c061cb;
+	background-color: #613583;
+}
+
+.content {
+max-width: 500px;
+margin: auto;
+}

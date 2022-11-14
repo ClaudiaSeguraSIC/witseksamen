@@ -62,7 +62,7 @@
 
 		<!--Login knap - der virker via en login side -->
 
-<button type="button" name="loginButton" onclick="window.location.href='https://wits.ruc.dk/~segura/test/login.php';">LOGIN</button>
+<button type="button" name="loginButton" onclick="window.location.href='login.php';">LOGIN</button>
 
 				<br>
 
